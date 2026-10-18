@@ -4,7 +4,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Prediction With Naveen</title>
 
 <!-- Meta Pixel Code -->
@@ -25,7 +24,6 @@ s.parentNode.insertBefore(t,s)
 fbq('init','1364743725738962');
 fbq('track','PageView');
 </script>
-
 <noscript>
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1364743725738962&ev=PageView&noscript=1"
@@ -40,7 +38,7 @@ alt="">
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: #fff;
   color: #050505;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -76,7 +74,7 @@ body {
 .heading-logo {
   width: 72px;
   height: 72px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
   border: 3px solid #2e6cc5;
   flex-shrink: 0;
@@ -90,7 +88,7 @@ body {
   margin: 0;
 }
 
-/* Telegram button */
+/* Telegram join button */
 .join-btn {
   display: flex;
   align-items: center;
@@ -99,11 +97,11 @@ body {
   width: 100%;
   min-height: 90px;
   padding: 12px 10px;
-  color: #ffffff;
+  color: #fff;
   background: #2e6cc5;
   border: 11px dashed #f0ff35;
   border-radius: 24px;
-  box-shadow: 0 3px 9px #888888;
+  box-shadow: 0 3px 9px #888;
   text-decoration: none;
   font-size: clamp(22px, 6vw, 48px);
   font-weight: 900;
@@ -118,19 +116,15 @@ body {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
-  background: #ffffff;
+  background: #fff;
   color: #2e6cc5;
   border-radius: 50%;
   font-size: 25px;
 }
 
 @keyframes glow {
-  from {
-    box-shadow: 0 3px 8px #888888;
-  }
-  to {
-    box-shadow: 0 4px 16px #aaaaaa;
-  }
+  from { box-shadow: 0 3px 8px #888; }
+  to { box-shadow: 0 4px 16px #aaa; }
 }
 
 /* Countdown display */
@@ -191,7 +185,7 @@ body {
   .join-btn {
     min-height: 76px;
     border-width: 8px;
-    font-size: clamp(20px, 5.8vw, 25px);
+    font-size: clamp(19px, 5.5vw, 25px);
   }
 
   .telegram-icon {
@@ -212,7 +206,6 @@ body {
 </head>
 
 <body>
-
 <main class="container">
 
   <!-- Main profile photo -->
@@ -224,7 +217,6 @@ body {
 
   <!-- Circular logo beside heading -->
   <div class="heading-area">
-
     <img
       class="heading-logo"
       src="logo.jpg"
@@ -232,28 +224,22 @@ body {
     >
 
     <h1>Prediction With Naveen</h1>
-
   </div>
 
-  <!-- Telegram Join Button -->
+  <!-- Telegram button -->
   <a
     class="join-btn"
     href="https://t.me/+03PJHj7y7po3MjE9"
     target="_blank"
     rel="noopener noreferrer"
   >
-
     <span class="telegram-icon" aria-hidden="true">➤</span>
-
     <span>JOIN FREE NOW</span>
-
     <span class="telegram-icon" aria-hidden="true">➤</span>
-
   </a>
 
-  <!-- Static timer matching reference design -->
+  <!-- Static timer matching reference -->
   <section class="timer" aria-label="Countdown display">
-
     <div class="timer-unit">
       <div class="digits">00</div>
       <div class="label">DAYS</div>
@@ -279,10 +265,8 @@ body {
       <div class="digits">00</div>
       <div class="label">SECONDS</div>
     </div>
-
   </section>
 
-  <!-- Disclaimer -->
   <p class="disclaimer">
     DISCLAIMER: This page is for informational and
     entertainment purposes only. No specific results
@@ -291,6 +275,5 @@ body {
   </p>
 
 </main>
-
 </body>
 </html>
