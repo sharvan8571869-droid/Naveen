@@ -1,1 +1,223 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prediction With Naveen</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];
+t=b.createElement(e);t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','1364743725738962');
+fbq('track','PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1364743725738962&ev=PageView&noscript=1"
+alt="">
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 780px;
+  margin: auto;
+  padding: 14px 16px 40px;
+}
+
+.profile {
+  width: min(70vw, 530px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 32px;
+}
+
+h1 {
+  font-size: clamp(27px, 6.3vw, 48px);
+  font-weight: 900;
+  margin: 0 0 30px;
+}
+
+.join-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+  width: 100%;
+  min-height: 90px;
+  padding: 12px 10px;
+  color: white;
+  background: #2e6cc5;
+  border: 11px dashed #f0ff35;
+  border-radius: 24px;
+  box-shadow: 0 3px 9px #888;
+  text-decoration: none;
+  font-size: clamp(22px, 6vw, 48px);
+  font-weight: 900;
+  margin-bottom: 38px;
+  animation: glow 1.5s infinite alternate;
+}
+
+.telegram {
+  background: white;
+  color: #2e6cc5;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 3px 8px #888; }
+  to { box-shadow: 0 4px 16px #aaa; }
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(5px, 2.5vw, 22px);
+  color: #d10b20;
+  font-family: Georgia, serif;
+  margin-bottom: 42px;
+}
+
+.unit {
+  min-width: 0;
+}
+
+.digits {
+  font-size: clamp(23px, 5vw, 38px);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.label {
+  font-size: clamp(14px, 3.6vw, 28px);
+  margin-top: 16px;
+  white-space: nowrap;
+}
+
+.disclaimer {
+  font-family: Georgia, serif;
+  font-size: clamp(16px, 3vw, 22px);
+  line-height: 1.45;
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .join-btn {
+    min-height: 76px;
+    border-width: 8px;
+  }
+
+  .telegram {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+
+  .timer {
+    gap: 6px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+
+<body>
+<main class="container">
+
+  <img class="profile"
+       src="profile.jpg"
+       alt="Prediction With Naveen">
+
+  <h1>Prediction With Naveen</h1>
+
+  <a class="join-btn"
+     href="https://t.me/+03PJHj7y7po3MjE9"
+     target="_blank"
+     rel="noopener noreferrer">
+
+    <span class="telegram">➤</span>
+    <span>JOIN FREE NOW</span>
+    <span class="telegram">➤</span>
+
+  </a>
+
+  <section class="timer">
+    <div class="unit">
+      <div class="digits">00</div>
+      <div class="label">DAYS</div>
+    </div>
+
+    <div class="digits">:</div>
+
+    <div class="unit">
+      <div class="digits">00</div>
+      <div class="label">HOURS</div>
+    </div>
+
+    <div class="digits">:</div>
+
+    <div class="unit">
+      <div class="digits">00</div>
+      <div class="label">MINUTES</div>
+    </div>
+
+    <div class="digits">:</div>
+
+    <div class="unit">
+      <div class="digits">00</div>
+      <div class="label">SECONDS</div>
+    </div>
+  </section>
+
+  <p class="disclaimer">
+    DISCLAIMER: This page is for informational and
+    entertainment purposes only. No specific results
+    or outcomes are guaranteed. We are not affiliated
+    with Telegram or any third-party platform. 18+ only.
+  </p>
+
+</main>
+</body>
+</html>
